@@ -35,4 +35,4 @@ ql repo https://ghproxy.com/https://github.com/jiasai007/wxyd.git
 安卓可以用 小黄鸟 HttpCanary  https://www.bilibili.com/video/av292860564/<br> 
 PC可以用 smartsniff Wireshark 等 抓取cookie
 
-返回定时任务 运行 微信阅读 查看日记 运行是否正常
+返回定时任务 运行 微信阅读 查看日记 运行是否正常 
