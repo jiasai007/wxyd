@@ -15,9 +15,9 @@
 单个微信号 可以自己写个简单的模拟按键延迟点击脚本 并且不会有验证文章卡住的问题 
 --
 青龙面板可以在windows系统 安卓手机 软路由 linux docker 等安装均可 <br>
-安装教程自动百度 这次从可以打开青龙面板 5700端口开始<br>
+安装教程自行搜索 这次从可以打开青龙面板 5700端口开始<br>
 青龙面板-定时任务-新建任务<br>
-名称随意 脚本复制下面内容
+名称:拉库 命令/脚本:复制下面内容
 ```Shell
 ql repo https://ghproxy.com/https://github.com/jiasai007/wxyd.git
 ```
@@ -26,11 +26,13 @@ ql repo https://ghproxy.com/https://github.com/jiasai007/wxyd.git
 0 0 0 * * 1
 ```
 点击 确定 后在操作栏中 点击 运行 该脚本
-
 运行成功后 设置 微信阅读 脚本 定时规则为 0 */30 * * * ? <br>
 
-青龙需要抓包m.*.shop域名下cookie,
-在环境变量 新建 wxyd 多账户换行隔开<br>
+青龙需要抓包m.*.shop域名下cookie <br>
+青龙面板-环境变量-新建变量<br>
+名称:wxyd 值:(你抓取的cookie) 点确定 多账户用回车换行隔开<br>
 
 安卓可以用 小黄鸟 HttpCanary  https://www.bilibili.com/video/av292860564/<br> 
-PC可以用 smartsniff Wireshark 等
+PC可以用 smartsniff Wireshark 等 抓取cookie
+
+~返回定时任务 运行 微信阅读 查看日记 运行是否正常~
