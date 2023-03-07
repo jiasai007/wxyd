@@ -2,11 +2,11 @@
 ~单微信号每日收益2块左右 3000金币=0.3元即可提现到微信钱包<br>
 ~6秒一篇文章得120金币 每小时30篇 每天6轮 180篇文章共21600金币=2.16元<br>
 --
-用微信扫一扫 <br>
+用微信扫一扫 下列二维码 任意一个均可<br>
 <img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/1.png" alt="Clash" width="200">
 <img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/2.png" alt="Clash" width="200">
 <img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/3.png" alt="Clash" width="200">
-任意一个均可<br>
+<br>
 --
 打开后自动转跳阅读文章 空白页关闭后 重新打开 <br>
 转跳到文章页面停6秒 返回上一页 重复操作30次即可 <br>
