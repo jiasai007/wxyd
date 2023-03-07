@@ -23,4 +23,7 @@ ql repo https://ghproxy.com/https://github.com/jiasai007/wxyd.git
 ```
 点击 确定 后在操作栏中 点击 运行 该脚本
 
-运行成功后 设置 微信阅读 时间为 
+运行成功后 设置 微信阅读 脚本 定时规则为 0 */30 * * * ? 
+
+青龙需要抓包m.*.shop域名下cookie,
+在环境变量 新建 wxyd 多账户换行隔开
