@@ -7,7 +7,7 @@
 打开文章停5秒 手动返回上一页
 
 青龙需要抓包m.*.shop域名下cookie,
-在环境变量 新建 yuedu 多账户换行隔开
+在环境变量 新建 wxyd 多账户换行隔开
 定时规则 0 */30 * * * ?
 
 每天会验证2次左右，碰到会plus推送提醒
@@ -23,7 +23,7 @@ const $ = new Env("微信阅读");
 const notify = $.isNode() ? require('./sendNotify') : '';
 let envSplitor = ['@', '\n']
 let httpResult, httpReq, httpResp
-let ckName = 'yuedu'
+let ckName = 'wxyd'
 let userCookie = ($.isNode() ? process.env[ckName] : $.getdata(ckName)) || '';
 let userList = []
 let userIdx = 0
@@ -354,7 +354,7 @@ function popugethost(url, body = '',ck) {
             "Accept": "*/*",
             "Origin": "https://kygj0209122405-1316151879.cos.ap-nanjing.myqcloud.com",
             "X-Requested-With": "com.tencent.mm",
-            "Referer": "https://kygj0209122405-1316151879.cos.ap-nanjing.myqcloud.com/index.html?upuid\u003d10315076"
+            "Referer": "https://kygj0209122405-1316151879.cos.ap-nanjing.myqcloud.com/index.html?upuid\u003d10688156"
         },
         timeout: 5000,
     }
