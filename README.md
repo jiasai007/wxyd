@@ -2,7 +2,12 @@
 ~单微信号每日收益2块左右 3000金币=0.3元即可提现到微信钱包<br>
 ~6秒一篇文章得120金币 每小时30篇 每天6轮 180篇文章共21600金币=2.16元<br>
 --
-用微信扫一扫 <img src="https://github.com/jiasai007/wxyd/blob/d900210144d8e218124cb6cd3e64f934330fccf1/wxyd.png" alt="Clash" width="200"><br>
+用微信扫一扫 
+<img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/1.png" alt="Clash" width="200">
+<img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/2.png" alt="Clash" width="200">
+<img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/3.png" alt="Clash" width="200">
+任意一个均可
+<br>
 --
 打开后自动转跳阅读文章 空白页关闭后 重新打开 <br>
 转跳到文章页面停6秒 返回上一页 重复操作30次即可 <br>
@@ -22,7 +27,10 @@ ql repo https://ghproxy.com/https://github.com/jiasai007/wxyd.git
 ```
 点击 确定 后在操作栏中 点击 运行 该脚本
 
-运行成功后 设置 微信阅读 脚本 定时规则为 0 */30 * * * ? 
+运行成功后 设置 微信阅读 脚本 定时规则为 0 */30 * * * ? <br>
 
 青龙需要抓包m.*.shop域名下cookie,
-在环境变量 新建 wxyd 多账户换行隔开
+在环境变量 新建 wxyd 多账户换行隔开<br>
+
+安卓可以用 小黄鸟 HttpCanary  https://www.bilibili.com/video/av292860564/<br> 
+PC可以用 smartsniff Wireshark 等
