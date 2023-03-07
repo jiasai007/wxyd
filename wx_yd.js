@@ -21,7 +21,7 @@ const $ = new Env("微信阅读");
 const notify = $.isNode() ? require('./sendNotify') : '';
 let envSplitor = ['@', '\n']
 let httpResult, httpReq, httpResp
-let ckName = 'yuedu'
+let ckName = 'wxyd'
 let userCookie = ($.isNode() ? process.env[ckName] : $.getdata(ckName)) || '';
 let userList = []
 let userIdx = 0
