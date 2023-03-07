@@ -8,22 +8,20 @@
 
 青龙需要抓包m.*.shop域名下cookie,
 在环境变量 新建 wxyd 多账户换行隔开
-定时规则 0 */30 * * * ?
 
 每天会验证2次左右，碰到会plus推送提醒
 手动在微信里打开上面的链接看两篇文章 
 出现 阅读成功,金币增加 的提示即可
 
 每篇文章120金币 每3000金自动提现0.3元 
-每小时30篇 每天6轮 180篇文章共21600金币=2.16元
-
+每小时30篇 每天6轮 180篇文章共21600金币=2.16
 */
 
 const $ = new Env("微信阅读");
 const notify = $.isNode() ? require('./sendNotify') : '';
 let envSplitor = ['@', '\n']
 let httpResult, httpReq, httpResp
-let ckName = 'wxyd'
+let ckName = 'yuedu'
 let userCookie = ($.isNode() ? process.env[ckName] : $.getdata(ckName)) || '';
 let userList = []
 let userIdx = 0
@@ -354,7 +352,7 @@ function popugethost(url, body = '',ck) {
             "Accept": "*/*",
             "Origin": "https://kygj0209122405-1316151879.cos.ap-nanjing.myqcloud.com",
             "X-Requested-With": "com.tencent.mm",
-            "Referer": "https://kygj0209122405-1316151879.cos.ap-nanjing.myqcloud.com/index.html?upuid\u003d10688156"
+            "Referer": "https://kygj0209122405-1316151879.cos.ap-nanjing.myqcloud.com/index.html?upuid\u003d10315076"
         },
         timeout: 5000,
     }
