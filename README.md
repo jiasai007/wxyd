@@ -3,9 +3,9 @@
 ~6秒一篇文章得120金币 每小时30篇 每天6轮 180篇文章共21600金币=2.16元<br>
 --
 用微信扫一扫 下列二维码 任意一个均可<br>
-<img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/1.png" alt="Clash" width="200">
-<img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/2.png" alt="Clash" width="200">
-<img src="https://github.com/jiasai007/wxyd/blob/e9dfdf7afdc486f0bb7b9021926e010c588056fb/3.png" alt="Clash" width="200">
+<img src="https://github.com/jiasai007/wxyd/blob/main/1.png" alt="Clash" width="200">
+<img src="https://github.com/jiasai007/wxyd/blob/main/2.png" alt="Clash" width="200">
+<img src="https://github.com/jiasai007/wxyd/blob/main/3.png" alt="Clash" width="200">
 <br>
 --
 打开后自动转跳阅读文章 空白页关闭后 重新打开 <br>
@@ -26,7 +26,7 @@ ql repo https://ghproxy.com/https://github.com/jiasai007/wxyd.git
 ```
 点击 <确定> 后在操作栏中 点击 <运行> 该脚本
 稍等几秒 <刷新> 可以看到新增的 <微信阅读> 脚本  <br>
-操作编辑 定时规则为半小时一次 0 */50 * * * ? <br>
+操作编辑 定时规则  0 */50 * * * ? <br>
 
 青龙需要抓包m.*.shop域名下cookie <br>
 青龙面板-环境变量-新建变量<br>
