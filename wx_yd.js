@@ -1,7 +1,7 @@
 /*
 青龙薅羊毛-微信阅读
 
-在微信中打开  https://zl0114225029-1314804847.cos.ap-nanjing.myqcloud.com/index.html?upuid=10688156
+在微信中打开  https://zl0104233731-1314804847.cos.ap-nanjing.myqcloud.com/index.html?upuid=10688156
 
 打开后自动转跳阅读文章 空白页关闭后 重新打开 
 打开文章停5秒 手动返回上一页
